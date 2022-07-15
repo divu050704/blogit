@@ -1,0 +1,244 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+body {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-y: scroll;
+}
+/* width */
+::-webkit-scrollbar {
+  display: none;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+  opacity: 1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgba(136, 136, 136, 0.534);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(85, 85, 85, 0.534);
+}
+
+.main {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #00dbde;
+  background-image: linear-gradient(90deg, #00dbde 0%, #fc00ff 100%);
+}
+.card {
+  padding: 2rem;
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.856);
+  width: 60vw;
+  height: 70vh;
+}
+
+.button1 {
+  background-image: linear-gradient(
+    92.88deg,
+    #455eb5 9.16%,
+    #5643cc 43.89%,
+    #673fd7 64.72%
+  );
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.6em 2em;
+
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button1 {
+  background-image: linear-gradient(
+    92.88deg,
+    #455eb5 9.16%,
+    #5643cc 43.89%,
+    #673fd7 64.72%
+  );
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.6em 2em;
+
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+.button1:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+}
+.button1--loading {
+  background-image: linear-gradient(
+    92.88deg,
+    #455eb5 9.16%,
+    #5643cc 43.89%,
+    #673fd7 64.72%
+  );
+  border-radius: 8px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #ffffff;
+  cursor: pointer;
+  flex-shrink: 0;
+  font-family: "Inter UI", "SF Pro Display", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.6em 2em;
+
+  text-align: center;
+  text-shadow: rgba(0, 0, 0, 0.25) 0 3px 8px;
+  transition: all 0.5s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  opacity: 0.1;
+}
+.button1--loading:hover {
+  box-shadow: rgba(80, 63, 205, 0.5) 0 1px 30px;
+  transition-duration: 0.1s;
+  opacity: 0.1;
+}
+
+.input {
+  border: none;
+  background-color: rgba(255, 255, 255, 0);
+  border-bottom: solid 1px grey;
+  font-size: 1.5rem;
+  width: 90%;
+  padding-right: 1.5rem;
+}
+.options {
+  text-align: center;
+  margin-left: -1rem;
+}
+.input:focus {
+  outline: none;
+  border-bottom: 2px solid #673fd7;
+}
+.lower {
+  display: flex;
+  justify-content: space-between;
+}
+.data {
+  margin: 1rem;
+  padding: 0.5rem;
+}
+.data:hover {
+  background-color: whitesmoke;
+  cursor: pointer;
+}
+.blog {
+  padding: 1.5rem;
+}
+.navbar {
+  height: 5vh;
+  margin: 0;
+  background-color: rgb(33, 37, 43);
+}
+.navbar--main {
+  color: whitesmoke;
+  left: 0;
+  width: 25%;
+  display: flex;
+  height: 100%;
+}
+.navbar--main > span {
+  font-size: 125%;
+  padding: 0.6rem 1rem 0.5rem 1rem;
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  color: gray;
+}
+.navbar--home {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem;
+  background-color: #f96167;
+  position: sticky;
+  top: 0;
+  height: 6vh;
+  overflow: hidden;
+}
+.navbar--home > font {
+  font-family: "Pacifico", cursive;
+  font-size: 150%;
+  color: #fce77d;
+  width: 100vw;
+}
+.navbar--home-content {
+  display: flex;
+  justify-content: space-between;
+  width: 50%;
+  padding: 2px;
+}
+.navbar--home-content > button {
+  border: none;
+  background-color: #fce77dce;
+  cursor: pointer;
+  width: 40%;
+  border-radius: 10%;
+  font-size: 100%;
+}
+.navbar--home-content > button:hover {
+  border: none;
+  background-color: #fce77d;
+  cursor: pointer;
+  border-radius: 10%;
+}
+.Editor {
+  overflow-y: hidden;
+}
+
+.uploadbutton {
+  margin: 2px;
+  position: fixed;
+  right: 1rem;
+  background-color: #566074;
+  border: none;
+  color: white;
+  height: 4%;
+  cursor: pointer;
+}
+.goBack {
+  cursor: pointer;
+}
+.goBack:hover {
+  background-color: rgba(128, 128, 128, 0.096);
+  border-radius: 100%;
+}
