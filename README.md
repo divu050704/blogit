@@ -18,4 +18,4 @@ Blogit is a proof of concept project for a blogging web-application made on reac
 ## Backend API
 This web applicaation is using an API for login authentication and all the server related work which is running via [replit](https://replit.com/@divu050704/login-backend#index.js).
 
-[Check out](https://divu050704.github.com/blogit)
+[Check out](https://divu050704.github.io/blogit/)
